@@ -1,0 +1,64 @@
+body{
+	margin: 0px;
+	height:100%;
+  	width:100%;
+}
+.fondo{
+	background-size: cover;
+	background-image: url(bg.jpg);
+}
+html {
+   width: 100%;
+   height: 100%;
+}
+h1{
+	color: red;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 10px;
+}
+#info{
+	padding-left: 5px;
+	font-family: sans-serif;	
+	position: absolute;
+	margin-top: -50px;
+	right: 0px;
+}
+#status{
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+#camera{
+    display: inline;
+    border: none;
+    width: 75%;
+    height: 600px;
+}
+#container {
+	width		: 100%;
+	height		: 100%;
+	overflow	: hidden;
+	padding		: 0;
+	margin		: 0;
+	-webkit-user-select	: none;
+	-moz-user-select	: none;
+}
+button{
+	position:absolute;
+}
+#left{
+	background-color: white;
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+}
+#right{
+	background-color: white;
+	position: relative;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}

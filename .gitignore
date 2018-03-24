@@ -1,0 +1,11 @@
+
+*.js
+node_modules/arraybuffer.slice/Makefile
+*.json
+*.md
+node_modules/blob/.npmignore
+node_modules/better-assert/Makefile
+*.yml
+node_modules/ansi-regex/license
+node_modules/base64-arraybuffer/.npmignore
+node_modules/content-disposition/LICENSE
