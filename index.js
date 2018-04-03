@@ -32,9 +32,9 @@ io.on("connection",function(socket) {
 
 
 ///////////////////////////////////////////////////////////
-//   					ARDUINO							 //
+//   					ARDUINO	Y/O Raspberry						 //
 ///////////////////////////////////////////////////////////
-/*
+
 var five = require("johnny-five");
 
 var board = new five.Board();
@@ -74,5 +74,3 @@ board.on("ready", function() {
         })
 
 });
-
-*/
